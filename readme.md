@@ -17,12 +17,12 @@ http://<app-gateway-public-ip>/api/echo
 ### Azure CLI
 
 #### Set up the environment:
-If you have cloned this repo, run `azd init`
-if you have not cloned this repo, run `azd init -t davidxw/app-gateway-test-env` 
+* If you have cloned this repo, run `azd init`
+* if you have not cloned this repo, run `azd init -t davidxw/app-gateway-test-env` 
 
 #### Deploy the environment:
-Run `azd auth login` to authenticate with Azure
-Run `azd up` and ansewr the prompts
+* Run `azd auth login` to authenticate with Azure
+* Run `azd up` and ansewr the prompts
 
 ### Bicep CLI
 
