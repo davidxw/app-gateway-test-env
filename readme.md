@@ -9,12 +9,13 @@ This repo sets up a test environment for Azure Application Gateway. It creates t
 
 The sample app deployed is https://github.com/davidxw/webHttpTest. After the deployment is complete, you can test the sample app at the following URL:
 ```
-http://<app-gateway-public-ip>/api/echo
+http://<app-gateway-public-ip>/api/envronment
 ```
+You can see from the response which container app the request was routed to. 
 
 ## Setup
 
-### Azure CLI
+### Azure Developer CLI
 
 #### Set up the environment:
 * If you have cloned this repo, run `azd init`
